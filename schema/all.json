@@ -1,0 +1,3547 @@
+{
+  "oneOf": [
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.QuobyteVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ReplicationControllerList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.NetworkPolicyPeer"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.JWTTokens"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ResourceResult"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.SQSEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.ReplicaSetSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1beta1.RoleList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Backoff"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.ReplicaSetList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ConfigMapNodeConfigSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SignatureKey"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.SensorSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.DAGTask"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1.Job"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ManagedNamespaceMetadata"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Condition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ParallelSteps"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ContainerSetRetryStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.HDFSArtifactRepository"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.VolumeClaimGC"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.Validation"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.DeploymentCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ConfigManagementPlugin"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ExecProviderConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.BitbucketAuth"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.CinderPersistentVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.HTTPIngressPath"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.ScopeDetail"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.DeploymentStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ContainerStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.HostIP"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ClusterGenerator"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ClusterInfo"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.RepositoryCertificateList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.IngressPortStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1.RoleRef"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.Backoff"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.EventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.GitRemoteConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ReplicationControllerStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.IngressStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1beta1.CronJobSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.certificates.v1.CertificateSigningRequestStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NodeProxyOptions"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.SlackEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.ScaleSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.ResourceMetricSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.IngressClass"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.policy.v1beta1.PodDisruptionBudgetSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.AWSAuthConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.HostInfo"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SyncStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.OAuth2EndpointParam"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.PulsarEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Data"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.HDFSArtifact"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.FlockerVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1.RoleBinding"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1.CSIDriverList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1.VolumeError"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ClusterCacheInfo"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.MergeGenerator"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ArtifactGCStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ConfigMapVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodSignature"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.StorageClass"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.MutatingWebhookConfigurationList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.ReplicaSetCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1.CronJobList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventbus.v1alpha1.EventBusList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.AzureFileVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PersistentVolumeSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.HTTPIngressPath"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1alpha1.Subject"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventbus.v1alpha1.ContainerTemplate"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventbus.v1alpha1.NATSConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.NodeResult"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.AnalysisRunStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.TemplateSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.StatefulSetCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.MetricValueStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSet"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventbus.v1alpha1.JetStreamBus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventbus.v1alpha1.JetStreamConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ServiceAccountList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSetRolloutStep"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.StatefulSetList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.ExternalMetricSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ArtifactRepositoryRef"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.WebhookClientConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.ExternalMetricStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.policy.v1beta1.PodDisruptionBudgetStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1.AggregationRule"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.DuckTypeGenerator"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.DeploymentRollback"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.IngressServiceBackend"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.IstioTrafficRouting"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1.PodFailurePolicyOnPodConditionsPattern"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.IngressStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ResourceActionDefinition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.AMQPEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.Authentication"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.ObjectMetricSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.EventSeries"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.CloudWatchMetric"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.PauseCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.TemplateStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.StorageOSPersistentVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.RollingUpdateDaemonSet"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventbus.v1alpha1.KafkaConsumerGroup"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.StatefulSetUpdateStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.ControllerRevisionList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SCMProviderGeneratorGitlab"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1.CSINode"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1alpha1.VolumeAttributesClassList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.ValidatingAdmissionPolicy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.DeploymentCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.Scale"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.AvoidPods"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.PreferredDuringSchedulingIgnoredDuringExecution"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.TLSRoute"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.TriggerParameter"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.StatefulSetStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.CSIVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.DaemonSet"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.Scale"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.DaemonSetUpdateStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.AnalysisRun"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.EmailTrigger"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.S3ArtifactRepository"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.IngressRule"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.CSINodeSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.KayentaThreshold"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.EventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.IngressClass"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.HPAScalingRules"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.ObjectMetricSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.EphemeralContainerCommon"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1.CSINodeSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationWatchEvent"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.ExprFilter"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.BasicAuth"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodAttachOptions"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.IngressList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.CSIStorageCapacityList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.SerializedReference"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SecretRef"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.AnalysisRunList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.S3EncryptionOptions"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ServiceAccountTokenProjection"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.VolumeMount"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1.ClusterRoleBinding"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.AuditAnnotation"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.DeploymentList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.HorizontalPodAutoscalerCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSourceJsonnet"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.TTLStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PersistentVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.DeploymentStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.AppProjectList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.RevisionMetadata"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.Variable"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.TTLStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SyncOperationResource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.PrometheusMetric"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ArtifactRepository"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.Ingress"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.SuppliedValueFrom"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.ContainerResourceMetricStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.certificates.v1beta1.CertificateSigningRequestStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SyncPolicy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.PodsMetricSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.IngressRuleValue"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.ReplicaSetList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ResourceNode"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ResourceStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.StatefulSetPersistentVolumeClaimRetentionPolicy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1beta1.Role"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.StickinessConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1.JobCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ComponentCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.WorkflowList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicyIngressRule"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1alpha1.VolumeAttributesClass"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSourceHelm"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ClusterConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.RetryNodeAntiAffinity"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.ValidatingWebhook"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.CalendarEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.ResourceFilter"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ContainerNode"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.IstioDestinationRule"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.certificates.v1.CertificateSigningRequestSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ISCSIVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.ArgumentValueFrom"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.KustomizeGvk"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.SynchronizationStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.RollbackConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1alpha1.VolumeError"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1alpha1.ClusterRoleList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.HelmOptions"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.Sysctl"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.Deployment"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.IngressTLS"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSetStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.ValidatingWebhook"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PersistentVolume"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.EventSourceSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.authentication.v1.TokenReview"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.HTTPIngressPath"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.TarStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.HPAScalingPolicy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.EndpointPort"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1.Subject"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1.StorageClassList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.NATSAuth"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.PulsarTrigger"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Plugin"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.AzureServiceBusTrigger"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.SELinuxOptions"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ServiceStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.JsonnetVar"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SyncStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.AnalysisTemplateRef"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.DownwardAPIVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.policy.v1.PodDisruptionBudgetSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1.CSIDriverSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventbus.v1alpha1.NATSBus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.StatefulSetOrdinals"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.ContainerResourceMetricStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.IngressBackend"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.NetworkPolicyList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSetGenerator"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.ServiceReference"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.GCEPersistentDiskVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.AzureQueueStorageEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.EmptyDirVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.GlusterfsPersistentVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.AzureEventHubsTrigger"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.GitArtifact"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.LogTrigger"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.NodeStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.authentication.v1.TokenReviewStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.PluginConfigMapRef"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SCMProviderGeneratorAWSCodeCommit"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.TCPRoute"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NodeFeatures"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.Ingress"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1.PodFailurePolicyRule"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1.Role"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1.CSINodeList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SyncOperation"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.TemplateRef"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.ExternalMetricStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Item"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.IngressRule"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.OperationInitiator"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ResourceOverride"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.BitbucketServerRepository"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.AzureFilePersistentVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ErrApplicationNotAllowedToUseProject"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.NSQEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.DaemonSetCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.NginxTrafficRouting"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.StatefulSet"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1beta1.RoleBindingList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1.UncountedTerminatedPods"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.IngressClassParametersReference"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.IngressList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1.RoleBindingList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1alpha1.CSIStorageCapacity"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.GithubAppCreds"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.WebhookEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.StatefulSetList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.PullRequestGeneratorAzureDevOps"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ResourceActions"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.ExternalMetricSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.CronWorkflowList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.SemaphoreRef"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.WorkflowTaskSet"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PersistentVolumeClaimVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodDNSConfigOption"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.TLSClientConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.ConfigMapPersistence"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Amount"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1alpha1.AggregationRule"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.AwsResourceRef"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.BlueGreenStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.DaemonSetStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.authentication.v1.UserInfo"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.HorizontalPodAutoscalerList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.PullRequestGeneratorGitLab"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.Service"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.GitCreds"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.MutatingWebhookConfiguration"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.PodsMetricStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.FlexPersistentVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.CephFSPersistentVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.GRPCAction"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSetResourceIgnoreDifferences"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.MutatingWebhook"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.Scale"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.WorkflowTemplateRef"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ServiceSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1alpha1.RoleList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.DownwardAPIVolumeFile"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.LimitRangeList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.OSSBucket"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.ParamKind"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.DaemonSet"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NodeRuntimeHandler"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ObjectReference"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ReplicationControllerSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.CSINodeDriver"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.KustomizeSelector"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ArtifactResult"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.DeploymentStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ListGenerator"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.Ingress"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.Template"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.IngressPortStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.IngressTLS"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.policy.v1.PodDisruptionBudgetStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.BitbucketServerEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.ValidatingAdmissionPolicyBinding"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.Deployment"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ContainerResizePolicy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ManifestFrom"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NFSVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodResourceClaim"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1beta1.RoleRef"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.AnalysisRunMetadata"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.MetricProvider"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.RollingUpdateStatefulSetStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.certificates.v1beta1.CertificateSigningRequestList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ProbeHandler"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1alpha1.RoleRef"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.AnalysisRunSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.MemoizationStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.ObjectMetricStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.DeploymentList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.AzureBlobContainer"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.ValidatingAdmissionPolicySpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.ControllerRevisionList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplateList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ScriptTemplate"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSetTemplateMeta"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.ALBStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.K8SResourcePolicy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PersistentVolumeClaimSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ProjectedVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ProjectRole"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.GithubEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.RolloutList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.HorizontalPodAutoscalerCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.CinderVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.MatrixGenerator"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.RetryStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.DaemonSetList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.ControllerRevisionList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.RBDVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1.VolumeAttachmentStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.ExperimentAnalysisTemplateRef"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.ValidatingAdmissionPolicyBindingList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.DaemonSetUpdateStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.ALBTrafficRouting"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.CloudWatchMetricDataQuery"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ArtifactLocation"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSetStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventbus.v1alpha1.EventBusSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.AMQPExchangeDeclareConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.VolumeAttachmentSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.NamedRuleWithOperations"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.Validation"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.LifecycleHandler"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.RolloutAnalysisBackground"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodPortForwardOptions"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1alpha1.VolumeAttachmentStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.RollingUpdateDeployment"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.IPAddressSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.AzureServiceBusEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.MutatingWebhookConfigurationList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ResourceQuotaList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.KustomizePatch"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.NamedRuleWithOperations"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ServiceAccount"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Outputs"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.WorkflowStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.ServiceReference"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.Application"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.JWTToken"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.AnalysisTemplateList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.certificates.v1beta1.CertificateSigningRequestSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.TopologySpreadConstraint"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.AzureArtifact"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.certificates.v1beta1.CertificateSigningRequestCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ArtifactResultNodeStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.TypeChecking"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ImageVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.VolumeAttachment"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.WorkflowEventBindingSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.MetricTarget"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ClientIPConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.RevisionHistory"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.FlexVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.WeightedPodAffinityTerm"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ClusterTrustBundleProjection"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.Volume"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ResourceActionParam"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.HTTPAuth"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.RollingUpdateDeployment"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.StatefulSetOrdinals"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSetCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.AWSLambdaTrigger"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.WorkflowArtifactGCTaskList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ContainerSetTemplate"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Gauge"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.GitArtifact"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.TypeChecking"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.RangeAllocation"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.IstioVirtualService"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.Measurement"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ArchiveStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NodeSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventbus.v1alpha1.EventBusStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.CloudWatchMetricStatMetricDimension"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.SemaphoreStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.VolumeNodeResources"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodAntiAffinity"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.IngressBackend"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1.CSIStorageCapacity"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ArtGCStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.ValidatingWebhookConfigurationList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.ValidatingAdmissionPolicy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.DeploymentList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.MetricSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SyncStrategyApply"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.EmitterEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.RolloutStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.ObjectMetricStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1.ClusterRoleList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.HDFSConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.ScaleSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.EnvFromSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.CSINode"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.ResourceEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.Metric"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.RollbackWindowSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.URLArtifact"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.IngressBackend"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.WorkflowTaskSetList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.HTTPHeader"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.TopologySelectorLabelRequirement"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.TopologySelectorTerm"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.DeploymentCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationMatchExpression"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.RepositoryList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.HTTP"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1.VolumeAttachmentSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.RetryAffinity"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ConfigMapProjection"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSetList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SyncOperationResult"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ArtifactPaths"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.MetricIdentifier"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PersistentVolumeClaimTemplate"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.IPBlock"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.policy.v1.PodDisruptionBudget"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.NestedMatrixGenerator"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.AppMeshTrafficRouting"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.SlackSender"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.WorkflowEventBindingList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.AuditAnnotation"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ConfigMapList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.EphemeralVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.HTTPIngressRuleValue"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ResourceRef"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.NATSTrigger"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ArtifactGC"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.ParentReference"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1alpha1.ClusterRoleBinding"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.KayentaMetric"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Object"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.Event"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.PayloadField"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.DaemonSet"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.DaemonSetStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ResourceQuotaSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSourceDirectory"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.PullRequestGeneratorGitea"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.EventSourceFilter"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.CSIStorageCapacity"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.LimitRangeItem"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.List"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1.JobStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.objectMeta"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.MetricStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.HorizontalPodAutoscalerBehavior"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Submit"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.BearerTokenBitbucketCloud"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.StandardK8STrigger"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.HTTPHeader"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodSchedulingGate"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.IngressRuleValue"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.PullRequestGenerator"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.MangedRoutes"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodResourceClaimStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1.PolicyRule"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventbus.v1alpha1.PersistenceStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.GerritEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.EndpointAddress"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1.JobSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.IPAddressList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.SFTPEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.AzureArtifactRepository"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.HorizontalPodAutoscalerStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.RedisStreamEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.OAuth2Auth"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.WorkflowTaskSetSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.ReplicaSetStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.StatefulSetCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.GitGenerator"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.OperationState"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.OptionalArray"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ConfigMapEnvSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.VolumeAttributesClass"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.SuspendTemplate"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodOS"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.ReplicaSetCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.EphemeralContainer"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.FCVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.Taint"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.StorageClassList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SyncPolicyAutomated"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.CronWorkflow"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1.CronJobStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.AnalysisRunStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.CanaryStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.WorkflowTaskSetStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.ControllerRevision"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodSecurityContext"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.Cluster"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.OptionalMap"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.PullRequestGeneratorBitbucketServer"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.TokenRequest"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.HelmFileParameter"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.ContainerResourceMetricSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ValueFrom"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.Secret"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.VolumeAttributesClassList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.NoneStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Prometheus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.TypedLocalObjectReference"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.IngressClassParametersReference"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1.VolumeNodeResources"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.HTTPArtifact"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.ValidatingAdmissionPolicyBinding"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1.PodFailurePolicy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.ValidatingAdmissionPolicySpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PortStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ServiceProxyOptions"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.DaemonSetCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.OSSLifecycleRule"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.WorkflowTaskResult"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.ValidatingWebhookConfiguration"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.VolumeMountStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicyPeer"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.WebMetric"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Event"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.EndpointsList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.Repository"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.ExperimentCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.MatchCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.DataSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.GitRepoVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.IngressTLS"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.EventPersistence"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.SlackTrigger"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NodeAddress"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.ReplicaSet"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.StatefulSetUpdateStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.HorizontalPodAutoscalerList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.RetryStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.CatchupConfiguration"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.StripeEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.Affinity"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PersistentVolumeClaimList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.Experiment"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.StringMatch"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.ValidatingAdmissionPolicyBindingList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.IngressClassSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.VolumeDevice"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.S3Artifact"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.ValidatingAdmissionPolicyStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.HTTPGetAction"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ExecAction"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicyPort"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.RequiredDuringSchedulingIgnoredDuringExecution"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.Sensor"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.DeploymentSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1beta1.ClusterRoleList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.GitFileGeneratorItem"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.DaemonSetSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.StatefulSetUpdateStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.RateLimit"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Sequence"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NodeStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PersistentVolumeClaimStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.TypedObjectReference"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ChartDetails"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ComponentParameter"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.BitbucketEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.VolumeResourceRequirements"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1beta1.RoleBinding"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.DaemonSetUpdateStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NodeConfigSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.SessionAffinityConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.OpenWhiskTrigger"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1.StorageClass"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Column"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.OSSArtifactRepository"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.HealthStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.CloudWatchMetricStat"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.RunSummary"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSetApplicationStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Artifact"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.WorkflowLevelArtifactGC"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.SecretList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.ServiceCIDR"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1.ClusterRoleBindingList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1alpha1.ClusterRole"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.DeploymentCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.ScaleStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.Endpoints"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PersistentVolumeStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.IngressStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.policy.v1beta1.Eviction"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.TrafficWeights"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Memoize"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ObjectFieldSelector"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.BasicAuthBitbucketServer"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.ScaleStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1.VolumeAttachmentSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Parameter"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.VolumeError"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.ObjectRef"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.DaemonSetList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.CSIDriverList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.ArtifactLocation"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.DeploymentSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.KeyToPath"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NamespaceStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.ServiceCIDRSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.RepositoryCertificate"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.GenericEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ArtifactGCSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.PodsMetricStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.CephFSVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.SeccompProfile"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.TimeFilter"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ContinueOn"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.WorkflowArtifactGCTask"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.policy.v1beta1.PodDisruptionBudget"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.AppMeshVirtualNodeReference"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.Sigv4Config"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.WebhookClientConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.WindowsSecurityContextOptions"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.ServiceCIDRList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1.RoleList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SCMProviderGeneratorGithub"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.ValidatingAdmissionPolicyStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.RollingUpdateDaemonSet"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1.PodFailurePolicyOnExitCodesRequirement"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.ScaleStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.TagFilter"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventbus.v1alpha1.BusConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.AzureEventsHubEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NodeRuntimeHandlerFeatures"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodReadinessGate"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.RollbackConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventbus.v1alpha1.EventBus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.S3Bucket"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.LoadBalancerStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ArtifactSearchResult"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.ExpressionWarning"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.Deployment"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.ReplicaSetCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.LocalObjectReference"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSetNestedGenerator"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.SetCanaryScale"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.SensorList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.DeploymentSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ReplicationController"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.VolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.FileEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.InfluxdbMetric"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.MutatingWebhook"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.HTTPIngressRuleValue"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.PubSubEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.RolloutAnalysisRunStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.RollingUpdateDaemonSet"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.AMQPQueueDeclareConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.ControllerRevision"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.NetworkPolicySpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.NATSEventsSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.RolloutPause"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.DaemonEndpoint"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.StatefulSet"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.LocalVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ClusterList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.EnvEntry"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.HelmParameter"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.RollingUpdateDeployment"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.authentication.v1.BoundObjectReference"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodAffinityTerm"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodLogOptions"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SCMProviderGeneratorAzureDevOps"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.MetricResult"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.LifecycleHook"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Metadata"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1.CronJobSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.EndpointSubset"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NodeConfigStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.ServiceBackendPort"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.FieldRef"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.PodTemplateMetadata"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.DAGTemplate"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventbus.v1alpha1.KafkaBus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.AnalysisTemplate"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.SecretEnvSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.VolumeAttachmentSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ResourceAction"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ContainerUser"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodTemplateList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.ParamRef"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.DeploymentRollback"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.OverrideIgnoreDiff"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.PluginGenerator"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.RolloutStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodTemplate"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.SleepAction"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.IngressLoadBalancerStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ResourceNetworkingInfo"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ArtifactoryArtifactRepository"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.HTTPBodySource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.ScaleStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.AttachedVolume"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.SecretKeySelector"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicyList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.SensorStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ResourceQuota"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ResourceStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ReplicationControllerCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.RepoCreds"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.ValidatingAdmissionPolicyList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.StatefulSetStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.SecretReference"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.IngressClassList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1beta1.Subject"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.LabelValueFrom"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.ValidatingWebhookConfiguration"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.ControllerRevision"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.Variable"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NodeList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.TraefikTrafficRouting"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.CustomTrigger"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.WorkflowStep"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.RolloutExperimentStep"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.CSINodeList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.NestedMergeGenerator"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.PluginInput"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.PullRequestGeneratorGithub"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.Deployment"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1.SuccessPolicy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PreferredSchedulingTerm"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.IngressPortStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ComparedTo"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.SkyWalkingMetric"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.PodGC"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1alpha1.VolumeAttachmentSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.Command"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Counter"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.DeploymentStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.MutexHolding"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ServiceList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.IngressLoadBalancerStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.ConditionsResetByTime"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.MatchResources"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.VolumeProjection"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.KafkaTrigger"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.VolumeNodeAffinity"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.NetworkPolicyPort"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ResourceTemplate"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.PodsMetricSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.KustomizeReplica"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.WebhookContext"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.JobMetric"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.GitlabEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.GCSArtifact"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.StatefulSet"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.DeploymentSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.AppProjectSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.InfoItem"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.AMQPQueueBindConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.IngressLoadBalancerStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.VolumeAttachmentStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.HeaderRoutingMatch"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.ResourceMetricStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.RBDPersistentVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.HTTPHeaderSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.ValidatingAdmissionPolicyBindingSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.StatefulSetSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.GlusterfsVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.HostAlias"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.CloudWatchMetricStatMetric"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.WeightDestination"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Cache"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NodeSelectorTerm"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.HTTPIngressRuleValue"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.PullRequestGeneratorBitbucket"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.Rollout"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ArtifactoryArtifact"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.RuleWithOperations"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.authentication.v1.SelfSubjectReviewStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.ScaleSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.OrphanedResourcesMonitorSettings"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.BitbucketRepository"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Template"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.WorkflowTemplate"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ConfigMap"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.LinuxContainerUser"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1.VolumeAttachment"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.EventSourceList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.BlueGreenStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Header"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1.CSIDriver"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ArtifactNodeSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.WorkflowMetadata"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.HorizontalPodAutoscalerSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Link"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.RawArtifact"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.DaemonSetSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.NetworkPolicy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1alpha1.ClusterRoleBindingList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.KustomizeResId"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.MQTTEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.RolloutExperimentTemplate"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.TriggerPolicy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.CronWorkflowSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NamespaceSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSourcePlugin"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.rawResourceOverride"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.AnalysisTemplateSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.certificates.v1.CertificateSigningRequest"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.IngressSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.AppProjectStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.DatadogMetric"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.ParamRef"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.DeploymentList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.Capabilities"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SCMProviderGenerator"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.ClusterAnalysisTemplate"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.WorkflowSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.IPBlock"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicyEgressRule"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.SNSEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.AppMeshVirtualService"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.Event"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1beta1.JobTemplateSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.LoadBalancerIngress"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1alpha1.PolicyRule"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.VolumeAttachmentList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.KafkaEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.MetricLabel"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ISCSIPersistentVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.AmbassadorTrafficRouting"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.RolloutTrafficRouting"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.DeploymentStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1beta1.AggregationRule"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1.CSIStorageCapacityList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.StatusPolicy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.UserContainer"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1alpha1.RoleBindingList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodIP"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.StorageOSVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.TCPSocketAction"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.ReplicaSetStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationDestination"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.HDFSEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.HorizontalPodAutoscaler"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1beta1.ClusterRoleBindingList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.AnalysisRunArgument"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.ApisixTrafficRouting"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.authentication.v1.TokenRequest"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.Pod"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ScaleIOVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.ContainerResourceMetricSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.ResourceMetricSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.MetricStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.SemaphoreHolding"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ContainerState"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodStatusResult"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1alpha1.CSIStorageCapacityList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1alpha1.VolumeAttachmentList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.MeasurementRetention"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.HTTPTrigger"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.ValidatingAdmissionPolicyBindingSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.IngressSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.ApisixRoute"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.GCSArtifactRepository"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Mutex"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.ReplicaSetSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.Service"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.DaemonSetStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.ClusterAnalysisTemplateList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.TransformationStep"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.ScaleSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.ReplicaSetStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodDNSConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.IngressClassList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.EventDependency"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ArtifactRepositoryRefStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.MutatingWebhookConfiguration"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ArtifactoryAuth"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.certificates.v1beta1.CertificateSigningRequest"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSourceKustomize"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.WatchPathConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.RolloutAnalysis"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.FileArtifact"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PortworxVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.RedisEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.ExperimentSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.KayentaScope"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ZipStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.ReplicaSetSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.authentication.v1.TokenRequestSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ComponentStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ResourceClaim"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.DeploymentStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.RouteMatch"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.HorizontalPodAutoscaler"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.CSIPersistentVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Inputs"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.StatefulSetStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.MetricSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SCMProviderGeneratorBitbucket"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventbus.v1alpha1.NativeStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.MutexStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.Operation"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ScaleIOPersistentVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.MatchCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ResourceFieldSelector"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1beta1.PolicyRule"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.AppMeshVirtualNodeGroup"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.CanaryStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.GraphiteMetric"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.SecretProjection"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SCMProviderGeneratorFilter"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1beta1.CronJobList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.Namespace"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.Argument"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.WorkflowTaskResultList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.certificates.v1.CertificateSigningRequestList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.EnvVarSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodAffinity"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSetSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SCMProviderGeneratorGitea"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.Selector"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1.ClusterRole"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.StatefulSetPersistentVolumeClaimRetentionPolicy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.IngressLoadBalancerIngress"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSummary"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ResourceIgnoreDifferences"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.LabelValues"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.EventList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodProxyOptions"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodTemplateSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSourcePluginParameter"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ResourceDiff"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.CreateS3BucketOptions"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.DeploymentStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1.VolumeAttachmentList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.AppProject"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationPreservedFields"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.SMITrafficRouting"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ContainerImage"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.LimitRange"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.NetworkPolicySpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.GnuPGPublicKeyList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.AntiAffinity"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.DaemonSetCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.GitDirectoryGeneratorItem"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.RolloutExperimentStepAnalysisTemplateRef"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.WavefrontMetric"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PhotonPersistentDiskVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.IngressClassSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.DataFilter"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.CronWorkflowStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ConfigMapKeySelector"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NodeDaemonEndpoints"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ScopedResourceSelectorRequirement"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.VsphereVirtualDiskVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SyncWindow"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.TemplateService"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.TriggerParameterSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1.CSINodeDriver"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.SetHeaderRoute"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.SecretVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.IngressRule"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.IngressLoadBalancerIngress"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.policy.v1.Eviction"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.policy.v1.PodDisruptionBudgetList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.PullRequestGeneratorFilter"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.HostPathVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PreferAvoidPodsEntry"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta2.ReplicaSetList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.IngressList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSetTerminalGenerator"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.HostResourceInfo"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.KafkaConsumerGroup"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.SetMirrorRoute"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.StatefulSetOrdinals"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.NetworkPolicyIngressRule"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1beta1.ClusterRole"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.OSSArtifact"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.CrossVersionObjectReference"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.Toleration"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.ConditionsResetCriteria"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.AzureDiskVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NodeCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.RefTarget"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.ExperimentStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.NewRelicMetric"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.policy.v1beta1.PodDisruptionBudgetList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.TriggerTemplate"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1.JobList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.ReplicaSet"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.RollingUpdateDeployment"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.StatefulSetSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.IngressLoadBalancerIngress"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ClusterWorkflowTemplate"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ContainerStateWaiting"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PersistentVolumeClaim"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.ValidatingWebhookConfigurationList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ResourceRequirements"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1alpha1.VolumeAttachment"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.StorageGridFilter"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ExecutorConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.Rule"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.Probe"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSetTemplate"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.HorizontalPodAutoscalerStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NodeSystemInfo"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ScopeSelector"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.authentication.v1.SelfSubjectReview"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ComponentStatusList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodExecOptions"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.RollingUpdateStatefulSetStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.StatefulSetList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.DownwardAPIProjection"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.CSIDriverSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.RolloutSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Workflow"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.NetworkPolicyEgressRule"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ContainerPort"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSetSyncPolicy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ConnectionState"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.RollingUpdateStatefulSetStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.ExpressionWarning"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.DaemonSetList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.WorkflowTemplateList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.ServiceCIDRStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1.TokenRequest"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationTree"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.EventDependencyTransformer"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.SlackThread"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ClientCertAuth"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.ResourceMetricStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.AppArmorProfile"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.Node"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PersistentVolumeList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.ApplicationSetRolloutStrategy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.KnownTypeField"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.StorageGridEventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1beta1.ClusterRoleBinding"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1alpha1.VolumeAttachmentSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.Template"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.WebMetricHeader"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.DaemonSetSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1alpha1.Role"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.KustomizeOptions"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.CanaryStep"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PersistentVolumeClaimCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SCMProviderGeneratorBitbucketServer"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.MatchResources"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.Container"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NodeSelector"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.PodList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.SecretKeyRef"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.EventDependencyFilter"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ModifyVolumeStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.BitbucketBasicAuth"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.ReplicaSet"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.EventContext"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.StatefulSetSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1.JobTemplateSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.GnuPGPublicKey"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.Info"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.ExperimentAnalysisRunStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1beta1.CronJob"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.AWSElasticBlockStoreVolumeSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ContainerStateTerminated"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NodeSelectorRequirement"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.SecurityContext"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.ArgoWorkflowTrigger"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.LabelKeys"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.StatefulSetPersistentVolumeClaimRetentionPolicy"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.Scale"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.sensor.v1alpha1.Trigger"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.NodeFlag"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.authentication.v1.TokenReviewSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v1.HorizontalPodAutoscalerSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NamespaceList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NodeAffinity"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ResourceHealth"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.OwnedRepositories"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.HDFSKrbConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.WorkflowEventBinding"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ServicePort"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Version"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1.StatefulSetCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1beta1.IPAddress"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.RepoCredsList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.ExperimentList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Metrics"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.authentication.v1.TokenRequestStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.rbac.v1alpha1.RoleBinding"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.storage.v1beta1.CSIDriver"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.certificates.v1.CertificateSigningRequestCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.Binding"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.extensions.v1beta1.IngressSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1.CronJob"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1.SuccessPolicyRule"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.batch.v1beta1.CronJobStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ContainerStateRunning"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.SyncStrategyHook"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.EventSourceStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.GCSBucket"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1beta1.ValidatingAdmissionPolicyList"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.NamespaceCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.NodeSynchronizationStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.SubmitOpts"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.admissionregistration.v1.ParamKind"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.autoscaling.v2.CrossVersionObjectReference"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.EnvVar"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.LimitRangeSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.networking.v1.IngressRuleValue"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.argocd.v1alpha1.OrphanedResourceKey"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.ValueFrom"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Arguments"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.OAuth2Config"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.PingPongSpec"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.apps.v1beta1.DeploymentStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.Lifecycle"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.k8s.api.core.v1.ResourceQuotaStatus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.RolloutCondition"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.ArtifactSearchQuery"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Histogram"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.eventsource.v1alpha1.AMQPConsumeConfig"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.rollouts.v1alpha1.DryRun"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Synchronization"
+    }
+  ]
+}
