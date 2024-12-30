@@ -1,6 +1,4 @@
 {
-    "$id": "http://workflows.argoproj.io/all.json",
-    "$schema": "http://json-schema.org/schema#",
     "definitions": {
         "io.argoproj.argocd.v1alpha1.AWSAuthConfig": {
             "description": "AWSAuthConfig is an AWS IAM authentication configuration",
