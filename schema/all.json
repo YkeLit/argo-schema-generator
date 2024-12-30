@@ -3542,6 +3542,15 @@
     },
     {
       "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.workflow.v1alpha1.Synchronization"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.events.v1alpha1.EventBus"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.events.v1alpha1.EventSource"
+    },
+    {
+      "$ref": "argo_all_k8s_kustomize_schema.json#/definitions/io.argoproj.events.v1alpha1.Sensor"
     }
   ]
 }
