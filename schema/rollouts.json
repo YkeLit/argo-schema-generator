@@ -1,0 +1,7 @@
+{
+  "oneOf": [
+    {
+      "$ref": "argo_rollouts_kustomize_schema#/definitions/io.argoproj.rollouts.v1alpha1.Rollout"
+    }
+  ]
+}
